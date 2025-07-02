@@ -1,12 +1,44 @@
-# React + Vite
+# 💱 Conversor de Moedas em Tempo Real
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto React que permite ao usuário converter moedas utilizando uma API de câmbio atualizada em tempo real.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Tailwind CSS
+- Axios
+- [ExchangeRate API](https://www.exchangerate-api.com)
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Conversão de moedas com taxa em tempo real
+- Interface responsiva e limpa
+- Suporte a múltiplas moedas
+- Indicador de carregamento (`Loader`)
+- Feedback visual do resultado
+
+## 📦 Como Rodar Localmente
+
+1. **Clone o repositório:**
+```bash
+git clone https://github.com/ValfranJr/Conversor-Moedas-API
+cd Conversor-Moedas-API/conversor-moedas
+````
+
+2. ## Instale as dependências:
+```bash
+npm install
+```
+
+3. ## Inicie o projeto:
+```bash
+npm run dev
+```
+
+4. ## Acesse o projeto:
+```bash
+http://localhost:5173
+```
+
+
+
